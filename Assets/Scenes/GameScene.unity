@@ -4455,6 +4455,16 @@ Prefab:
       propertyPath: sacrificeObscurityCost
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 114047021195348604, guid: ea9c304e6dedd134d8f1cf7e03e63ba1,
+        type: 2}
+      propertyPath: FT_RitualBonus
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 114047021195348604, guid: ea9c304e6dedd134d8f1cf7e03e63ba1,
+        type: 2}
+      propertyPath: FT_RecruitBonus
+      value: 65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea9c304e6dedd134d8f1cf7e03e63ba1, type: 2}
   m_IsPrefabAsset: 0

@@ -18,6 +18,15 @@ public class GameController : MonoBehaviour
         WinningScreen
     }
 
+    public bool hasGameStarted;
+
+    [Header("First Turn Bonus")]
+    public float FT_RitualBonus;
+    public float FT_RecruitBonus;
+    public float FT_ObscurityBonus;
+    public float FT_FaithBonus;
+
+
     public GameState thisGameState;
     private int totalCultists;
 
@@ -87,6 +96,8 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
+
+        hasGameStarted = false;
         mainMenuCanvas.enabled = true;
         gameUICanvas.enabled = false;
         winScreenCanvas.enabled = false;
@@ -97,6 +108,7 @@ public class GameController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        hasGameStarted = false;
         thisGameState = GameState.InMenus;
         lastDecay = secondsBetweenDecay;
         recruitLevel = recruitMax;
@@ -270,12 +282,21 @@ public class GameController : MonoBehaviour
 
     public void StartGame()
     {
+
+        // If the game is starting for the first time invoke a bonus to the second cultist
+        if (!hasGameStarted)
+        {
+            Invoke("firstTurnBonuses", 0.1f);                
+        }
+
         mainMenuCanvas.enabled = false;
         gameUICanvas.enabled = true;
         tutorialMenuCanvas.enabled = false;
         loseScreenCanvas.enabled = false;
         winScreenCanvas.enabled = false;
         thisGameState = GameState.InProgress;
+
+        hasGameStarted = true;
 
     }
 
@@ -302,5 +323,13 @@ public class GameController : MonoBehaviour
             //
             child.loseHappiness(faithNormalized);
         }
+    }
+
+    public void firstTurnBonuses()
+    {
+        faithLevel += FT_FaithBonus;
+        recruitLevel += FT_RecruitBonus;
+        obscurityLevel += FT_ObscurityBonus;
+        ritualEarned += FT_RitualBonus;
     }
 }
