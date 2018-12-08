@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f07df35ba29f1d48a47767958bcd221, type: 3}
+  m_Name: 09 Relaxing
+  m_EditorClassIdentifier: 
+  lessonTitle: Cultists Need some Relaxation
+  lessonText: "Weary cultists need to have a break to relax and be reinvigorated.
+    \n\nWhile doing nothing productive is a drain on your cult as a whole, it helps
+    to have a little bit of fun. It may even entice new recruits. \n\nBe careful with
+    worried cultists though. Tough love is the only way to turn their frowns upside
+    down. "
+  lessonImage: {fileID: 21300000, guid: 860d06527c8ba444391644e057ddb56f, type: 3}

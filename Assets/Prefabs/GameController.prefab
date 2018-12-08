@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1131167872752238}
+  m_IsPrefabAsset: 1
+--- !u!1 &1131167872752238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4289953120613842}
+  - component: {fileID: 114047021195348604}
+  m_Layer: 10
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289953120613842
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1131167872752238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.06, y: 2.847, z: 0}
+  m_LocalScale: {x: 59.36186, y: 43.090652, z: 0.95757}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114047021195348604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1131167872752238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1448e68676dfd354d93a91ed3beb2b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisGameState: 0
+  ritualNeeded: 1000
+  ritualEarned: 0
+  ritualProgress: 0
+  ritualSlider: {fileID: 0}
+  ritualLostEachDecay: 10
+  sacrificeValue: 25
+  obscurityMax: 250
+  obscurityLevel: 250
+  obscurityNormalized: 0
+  obscuritySlider: {fileID: 0}
+  obscurityFromWorship: -2
+  obscurityFromRecruiting: -4
+  obscurityFromRelaxing: 2
+  obscurityFromStudying: 4
+  faithMax: 300
+  faithLevel: 150
+  faithNormalized: 0
+  faithSlider: {fileID: 0}
+  faithFromWorship: 4
+  faithFromRecruiting: -2
+  faithFromRelaxing: -2
+  faithFromStudying: 2
+  happinessMultipliers:
+  - -1
+  - 0.5
+  - 1
+  - 3
+  recruitMax: 100
+  recruitLevel: 0
+  recruitNormalized: 0
+  recruitmentSlider: {fileID: 0}
+  recruitmentFromRecruiting: 4
+  recruitmentFromWorshiping: -1
+  recruitmentFromStudying: -2
+  recruitmentFromRelaxing: 1
+  newRecruit: {fileID: 1520136405794142, guid: 7d2ed7006c6ef0c4f9a2f94ceafb7034, type: 2}
+  spawnPoint: {fileID: 0}
+  secondsBetweenDecay: 5
+  mainMenuCanvas: {fileID: 0}
+  tutorialMenuCanvas: {fileID: 0}
+  winScreenCanvas: {fileID: 0}
+  loseScreenCanvas: {fileID: 0}
+  gameUICanvas: {fileID: 0}

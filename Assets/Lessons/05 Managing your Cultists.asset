@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f07df35ba29f1d48a47767958bcd221, type: 3}
+  m_Name: 05 Managing your Cultists
+  m_EditorClassIdentifier: 
+  lessonTitle: 'Assign Your Followers Tasks '
+  lessonText: "Move your cultists to each of the work areas to make them be productive.\n\nCultists'
+    happiness will impact how productive they are. As a great leader, you'll need
+    to manage their happiness, recruit followers, keep faith in an ancient being,
+    and keep your cult from being discovered by meddling authorities. \n\nUse each
+    area successfully and toss a few cultists into the pit when the time is right
+    to start the ritual. "
+  lessonImage: {fileID: 21300000, guid: 7a5590a42731f604da4bff4538f047b8, type: 3}

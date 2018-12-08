@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f07df35ba29f1d48a47767958bcd221, type: 3}
+  m_Name: 08 Studying Arcane Tomes
+  m_EditorClassIdentifier: 
+  lessonTitle: Uncover Arcane Secrets
+  lessonText: "There is nothing more obscure than flipping through dusty, old, and
+    exhausting tomes. \n\nCultists find this activity to be a bore, but it's a great
+    way to hide while polishing the edges of your mysterious faith. "
+  lessonImage: {fileID: 21300000, guid: 310abe92f204c2541a264d3ce1355c7a, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f07df35ba29f1d48a47767958bcd221, type: 3}
+  m_Name: 04 Cultist Happiness
+  m_EditorClassIdentifier: 
+  lessonTitle: Cultist Happiness
+  lessonText: "It is difficult to toil and keep the faith. Your cultists will express
+    their pleasure or displeasure on their face. \n\nWorried cultists could leave
+    your cult at any time. They have strange effects on your progress when put to
+    work. \n\nUnsure cultists are just not as productive as they should be. \n\nHappy
+    cultists really help you move forward. \n\nZealous go the extra mile, which means
+    that they can draw attention to your cult faster than others too. "
+  lessonImage: {fileID: 21300000, guid: e2cd569006c7c4844b712f8ee61f867a, type: 3}
